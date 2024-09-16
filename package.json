@@ -1,0 +1,22 @@
+{
+  "name": "discord-command-handler-ts",
+  "version": "1.3.0",
+  "description": "Discord Command Handler for ts/js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsup src/index.ts --minify",
+    "start": "node dist/index.js"
+  },
+  "author": "xbankick",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "protection-ts-helper": "file:",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.2.4",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
